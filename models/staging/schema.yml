@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: dbt_ishomnikov
+    description: stage models
+    tables:
+      - name: stg_items
+      - name: stg_users
+      - name: stg_purchases
