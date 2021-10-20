@@ -7,3 +7,14 @@ sources:
       - name: raw_items
       - name: raw_users
       - name: raw_purchases
+
+models: 
+  - name: customer
+    description: This table has basic information about a customer, as well as some derived facts
+
+    columns: 
+      - name: user_id
+        description: this is a unique identifier for a customer
+        tests: 
+          - unique
+          - not_null
