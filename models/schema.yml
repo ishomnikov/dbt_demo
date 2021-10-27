@@ -18,13 +18,3 @@ models:
         tests: 
           - unique
           - not_null
-  
-  - name: items_purchased
-    description: new model to calculate most popular items
-
-    columns:
-      - name: item_id
-        description: unique identifier
-        tests: 
-          - unique
-          - not_null
