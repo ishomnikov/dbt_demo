@@ -1,0 +1,8 @@
+id,first,last,email,lang,deactivated
+1,Ivan,Shomnikov,Ivan.Shomnikov@badabing.com,Russian,0
+2,Simon,King,Simon.King@badabing.com,English,0
+3,Luca,Brasi,Luca.Brasi@badabing.com,Italian,1
+4,Tony,Soprano,Tony.Soprano@badabing.com,Italian,1
+5,Silvio,Dante,Silvio.Dante@badabing.com,Italian,1
+6,Paulie,Gualtieri,Paulie.Gualtieri@badabing.com,Italian,1
+7,Christopher,Moltisanti,Christopher.Moltisanti@badabing.com,Italian,1
