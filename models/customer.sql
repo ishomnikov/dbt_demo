@@ -48,6 +48,7 @@ final as (
         ,customer_orders.most_recent_order
         ,customer_orders.number_of_orders
         ,coalesce(customer_payments.total_amount,0) as customer_lifetime_value 
+        ,'This is New Field' as new_field
     from customers
     left join customer_orders using (user_id)
     left join customer_payments using (user_id)
